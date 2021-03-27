@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/osayimwense/Desktop/Personal Projects/create_a_lisp/main.c
+stdio.h
+-
+stdlib.h
+-
+editline/readline.h
+-
+
