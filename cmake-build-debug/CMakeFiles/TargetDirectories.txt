@@ -1,3 +1,0 @@
-/Users/osayimwense/Desktop/Personal Projects/create_a_lisp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/osayimwense/Desktop/Personal Projects/create_a_lisp/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/osayimwense/Desktop/Personal Projects/create_a_lisp/cmake-build-debug/CMakeFiles/create_a_lisp.dir
