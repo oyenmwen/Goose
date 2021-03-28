@@ -143,6 +143,33 @@ create_a_lisp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/create_a_lisp.dir/build.make CMakeFiles/create_a_lisp.dir/build
 .PHONY : create_a_lisp/fast
 
+mpc.o: mpc.c.o
+
+.PHONY : mpc.o
+
+# target to build an object file
+mpc.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/create_a_lisp.dir/build.make CMakeFiles/create_a_lisp.dir/mpc.c.o
+.PHONY : mpc.c.o
+
+mpc.i: mpc.c.i
+
+.PHONY : mpc.i
+
+# target to preprocess a source file
+mpc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/create_a_lisp.dir/build.make CMakeFiles/create_a_lisp.dir/mpc.c.i
+.PHONY : mpc.c.i
+
+mpc.s: mpc.c.s
+
+.PHONY : mpc.s
+
+# target to generate assembly for a file
+mpc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/create_a_lisp.dir/build.make CMakeFiles/create_a_lisp.dir/mpc.c.s
+.PHONY : mpc.c.s
+
 parsing.o: parsing.c.o
 
 .PHONY : parsing.o
@@ -179,6 +206,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... create_a_lisp"
+	@echo "... mpc.o"
+	@echo "... mpc.i"
+	@echo "... mpc.s"
 	@echo "... parsing.o"
 	@echo "... parsing.i"
 	@echo "... parsing.s"

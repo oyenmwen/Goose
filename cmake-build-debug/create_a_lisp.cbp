@@ -44,6 +44,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/osayimwense/Desktop/Personal Projects/create_a_lisp/."/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
@@ -64,6 +65,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/osayimwense/Desktop/Personal Projects/create_a_lisp/."/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
@@ -78,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/osayimwense/Desktop/Personal Projects/create_a_lisp/mpc.c">
+			<Option target="create_a_lisp"/>
+		</Unit>
+		<Unit filename="/Users/osayimwense/Desktop/Personal Projects/create_a_lisp/mpc.h">
+			<Option target="create_a_lisp"/>
+		</Unit>
 		<Unit filename="/Users/osayimwense/Desktop/Personal Projects/create_a_lisp/parsing.c">
 			<Option target="create_a_lisp"/>
 		</Unit>
