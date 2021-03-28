@@ -143,32 +143,32 @@ create_a_lisp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/create_a_lisp.dir/build.make CMakeFiles/create_a_lisp.dir/build
 .PHONY : create_a_lisp/fast
 
-main.o: main.c.o
+parsing.o: parsing.c.o
 
-.PHONY : main.o
+.PHONY : parsing.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/create_a_lisp.dir/build.make CMakeFiles/create_a_lisp.dir/main.c.o
-.PHONY : main.c.o
+parsing.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/create_a_lisp.dir/build.make CMakeFiles/create_a_lisp.dir/parsing.c.o
+.PHONY : parsing.c.o
 
-main.i: main.c.i
+parsing.i: parsing.c.i
 
-.PHONY : main.i
+.PHONY : parsing.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/create_a_lisp.dir/build.make CMakeFiles/create_a_lisp.dir/main.c.i
-.PHONY : main.c.i
+parsing.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/create_a_lisp.dir/build.make CMakeFiles/create_a_lisp.dir/parsing.c.i
+.PHONY : parsing.c.i
 
-main.s: main.c.s
+parsing.s: parsing.c.s
 
-.PHONY : main.s
+.PHONY : parsing.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/create_a_lisp.dir/build.make CMakeFiles/create_a_lisp.dir/main.c.s
-.PHONY : main.c.s
+parsing.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/create_a_lisp.dir/build.make CMakeFiles/create_a_lisp.dir/parsing.c.s
+.PHONY : parsing.c.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... create_a_lisp"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... parsing.o"
+	@echo "... parsing.i"
+	@echo "... parsing.s"
 .PHONY : help
 
 

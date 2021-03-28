@@ -78,7 +78,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/osayimwense/Desktop/Personal Projects/create_a_lisp/main.c">
+		<Unit filename="/Users/osayimwense/Desktop/Personal Projects/create_a_lisp/parsing.c">
 			<Option target="create_a_lisp"/>
 		</Unit>
 		<Unit filename="/Users/osayimwense/Desktop/Personal Projects/create_a_lisp/CMakeLists.txt">

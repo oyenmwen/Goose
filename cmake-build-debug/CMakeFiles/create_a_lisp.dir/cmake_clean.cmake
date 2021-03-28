@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/create_a_lisp.dir/main.c.o"
+  "CMakeFiles/create_a_lisp.dir/parsing.c.o"
   "create_a_lisp"
   "create_a_lisp.pdb"
 )

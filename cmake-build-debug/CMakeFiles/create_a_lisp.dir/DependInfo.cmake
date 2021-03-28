@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/osayimwense/Desktop/Personal Projects/create_a_lisp/main.c" "/Users/osayimwense/Desktop/Personal Projects/create_a_lisp/cmake-build-debug/CMakeFiles/create_a_lisp.dir/main.c.o"
+  "/Users/osayimwense/Desktop/Personal Projects/create_a_lisp/parsing.c" "/Users/osayimwense/Desktop/Personal Projects/create_a_lisp/cmake-build-debug/CMakeFiles/create_a_lisp.dir/parsing.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
